@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+header {
+  padding: 15px 0;
+  background-color: #272c3d;
+}
+
+.csgo {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+}
+.left a {
+  color: white;
+  text-decoration: none;
+}
+.input-wrapper {
+  color: #404864;
+}
+
+.hero {
+  background-image: url("./Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.major h1 {
+  text-align: center;
+}
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.major h1 {
+  padding: 15px;
+  color: white;
+}
+.major {
+  background-color: #000000;
+}
+
+.pl {
+  width: 740px;
+  margin: 0 auto;
+}
+.antwerp {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.pl h2{
+    color: white;
+}
+.pl2 h2{
+    color: white;
+}
+.antwerp p {
+    color: white;
+  width: 350px;
+}
+
+.pl2 {
+  width: 740px;
+  margin: 0 auto;
+}
+.antwerp2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.antwerp2 p {
+    color: white;
+  width: 350px;
+}
+.PGL{
+    background-color: #1B1E27;
+}
+.rightt a{
+    
+    color: white;
+    text-decoration: none;
+}
+.rughtt{
+    color: white    ;
+}
+.blogg{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.blog{
+
+     background-color: #272C3D;
+    padding: 15px;
+}
